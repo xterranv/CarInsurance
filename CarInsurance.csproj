@@ -219,7 +219,6 @@
     <Content Include="Views\Insuree\GetQuote.cshtml" />
     <Content Include="Views\Insuree\CoverageAndPolicies.cshtml" />
     <Content Include="Views\Insuree\Discounts.cshtml" />
-    <Content Include="Views\Home\Admin.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
