@@ -1,0 +1,18 @@
+﻿@model CarInsurance.Models.Insuree
+@{
+  ViewBag.Title = "ViewQuote";
+}
+
+<h2>INSURE-U Quote</h2>
+
+<h3>Your custom Quote is: @(((decimal)ViewBag.FinalQuote).ToString("C2"))</h3>
+<br />
+
+<div>
+  @Html.ActionLink("Back Home", "Index", "Home", null, null)
+</div>
+
+@section Scripts {
+  @Scripts.Render("~/bundles/jqueryval")
+}
+
